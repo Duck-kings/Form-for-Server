@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#form{
+    height: 280px;
+    width: 300px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    text-align: center;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+#userName, #userAge{
+    font-size: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #777778;
+    padding: 5px;
+    color: #fff;
+}
+#userName:focus, #userAge:focus{
+    border-bottom: 1px solid #1818f0;
+}
+#userAge{
+    margin-top: 15px;
+}
+#btn_submit, #btn_reset{
+    font-size: 22px;
+    position: absolute;
+    bottom: 15px;
+    padding: 8px;
+    letter-spacing: 1.5px;
+    background: #4a8ff0;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#btn_submit{
+    left: 15px;
+}
+#btn_reset{
+    right: 25px;
+}
+table{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr{
+    border: 1px solid #000;
+}
+td, th{
+    border: 1px solid #000;
+    padding: 8px;
+}
+.edit_btn, .remove_btn{
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 8px;
+    background: #4a8ff0;
+    color: #fff;
+    border-radius: 3px;
+}
